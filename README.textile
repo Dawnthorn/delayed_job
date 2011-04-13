@@ -134,6 +134,8 @@ end
 
 h2. Running Jobs
 
+Jobs are run automatically!  You don't need to run @script/delayed_job@ -- see Autoscaling below.
+
 @script/delayed_job@ can be used to manage a background process which will start working off jobs.  Make sure you've run `script/generate delayed_job`.
 
 <pre>
